@@ -1,0 +1,88 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 2.5em 10em;
+    background-color: #515DEF;
+    background-image: url(../img/Mask\ Group.jpg);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    height: 1123px;
+}
+
+nav.nav {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5em;
+
+    a + a {
+        text-decoration: none;
+        color: #FBFBFB;
+        margin: 0% 2em;
+    }
+
+    :nth-of-type(2) {
+        margin-left: 12em;
+    }
+
+    :nth-of-type(7) {
+        margin-left: auto;
+        background-color: #515DEF;
+        padding: 1em 1.2em;
+    }
+
+    :nth-of-type(7):hover {
+        background-color: #FBFBFB;
+        color: #515DEF;
+    }
+}
+
+section.portada {
+    width: 45%;
+    color: #FBFBFB;
+    margin-bottom: 5em;
+
+    h1 {
+        font-size: 5em;
+        margin: 0.4em 0em;
+    }
+
+    p {
+        font-size: 2em;
+        font-weight: normal;
+    }
+
+    a {
+        background-color: #FBFBFB;
+        padding: 0.5em 1em ;
+        color: #333333;
+        text-decoration: none;
+        align-items: center;
+        display: inline-flex;
+        margin-top: 2em;
+        font-size: 1.7em;
+    }
+}
+
+section.info {
+    background-color: #FBFBFB;
+    display: flex;
+    margin-left: -10em;
+    padding: 4em;
+    width: 80%;
+
+    div {
+        width: 25em;
+        margin-right: 8em;
+        
+
+        h4 {
+            font-size: 1.3em;
+            margin: 0.8em 0em;
+        }
+
+        p {
+            color: #7A7A7A;
+            font-size: 1.5em;
+        }
+    }
+}
+
