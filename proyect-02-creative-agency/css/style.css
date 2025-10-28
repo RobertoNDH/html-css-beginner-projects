@@ -5,6 +5,7 @@ body {
     background-image: url(../img/Mask\ Group.jpg);
     background-repeat: no-repeat;
     background-position: right bottom;
+    background-size: 40%;
     height: 1123px;
 }
 
@@ -27,11 +28,6 @@ nav.nav {
         margin-left: auto;
         background-color: #515DEF;
         padding: 1em 1.2em;
-    }
-
-    :nth-of-type(7):hover {
-        background-color: #FBFBFB;
-        color: #515DEF;
     }
 }
 
