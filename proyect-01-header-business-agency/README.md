@@ -40,7 +40,7 @@ It demonstrates responsive layout structuring, basic styling techniques, and mod
 
 ## 📸 Preview
  
-`![Project Preview](img/screenshot.png)`
+`![Project Preview](./img/screenshot.png)`
 
 ---
 
