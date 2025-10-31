@@ -1,0 +1,121 @@
+body {
+    font-family: Montserrat, sans-serif, Arial, Helvetica;
+    margin: 2.5em 10em;
+    background-image: url(../img/delivery-concept-handsome-african-american-deliver-AZUZTZ3\ 1.jpg);
+    background-repeat: no-repeat;
+    background-position: 85% 20%;
+}
+
+nav.nav {
+    display: flex;
+    gap: 3.5em;
+    align-items: center;
+    margin-bottom: 7em;
+
+    a {
+        text-decoration: none;
+        color: #403C39;
+        font-size: 1.2em;
+    }
+    
+    a:nth-child(2) {
+        margin-left: 20em;
+        color: #F38160;
+        border-bottom: #F38160 2.5px solid;
+        padding: 0.4em;
+    }
+
+    a:nth-child(8) {
+        margin-left: auto;
+
+        img:nth-child(2) {
+            margin-bottom: 1.5em;
+        }
+    }
+
+    a:nth-child(9) {
+        color: #F38160;
+        text-decoration: underline;
+    }
+
+    a:nth-child(10) {
+        background-color: #F38160;
+        padding: 1.2em 2.5em;
+        border-radius: 1em;
+        color: white;
+    }
+}
+
+section.portada {
+    
+    h1 {
+        width: 55%;
+        font-size: 5.7em;
+        margin-bottom: 0.3em;
+
+        span {
+            color: #F38160;
+        }
+    }
+
+    .p {
+        font-size: 1.7em;
+        width: 35%;
+        color: #949494;
+        margin-bottom: 1.8em;
+    }
+
+    .form {
+        display: flex;
+        margin-bottom: 1.5em;
+
+        input[type="text"] {
+            width: 28%;
+            padding: 1em;
+            color: #949494;
+            border-radius: 1em;
+            background-color: #D0D0D240;
+            font-size: 1.2em;
+            border-style: none;
+        }
+        
+        button {
+            padding: 1.2em;
+            font-size: large;
+            border-radius: 0em 1em 1em 0em;
+            background-color: #F38160;
+            margin-left: -3.8em;
+            border-style: none;
+        }
+    }
+
+    .div {
+        width: 30%;
+        margin-bottom: 3em;
+
+        div {
+            display: inline-flex;
+            flex-wrap: wrap;
+            width: 35%;
+            gap: 0.5em;
+            font-size: 1.2em;
+        }
+    }
+}
+
+section.info {
+    display: flex;
+    gap: 5em;
+    
+    div {
+        font-size: 1.5em;
+
+        h3 {
+            color: #403C39;
+        }
+
+        p {
+            color: #949494;
+        }
+    }
+}
